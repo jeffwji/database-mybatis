@@ -9,7 +9,7 @@
 		<junit.version>4.11</junit.version>
 		<dbunit.version>2.5.1</dbunit.version>
 		<spring.boot.version>1.2.5.RELEASE</spring.boot.version>
-		<spring.version>4.1.7.RELEASE</spring.version>
+		<spring.version>4.2.3.RELEASE</spring.version>
 		<!-- <database-tx.version>0.0.1</database-tx.version> -->
 		<!-- <test.version>1.0.0-SNAPSHOT</test.version> -->
 	</properties>
