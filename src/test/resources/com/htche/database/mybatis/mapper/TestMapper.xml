@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wang.database.mybatis.unit.dao.TestDao">
+<mapper namespace="net.tinybrick.database.mybatis.unit.dao.TestDao">
 	<!-- Result Map -->
-	<resultMap id="ResultMap" type="com.wang.database.mybatis.unit.model.TestModel">
+	<resultMap id="ResultMap" type="net.tinybrick.database.mybatis.unit.model.TestModel">
 		<result column="id" property="id" />
 		<result column="name" property="name" />
 		<result column="creationDate" property="creationDate" />
@@ -27,7 +27,7 @@
 		</where>
 	</sql>
 	
-	<insert id="insert" parameterType="com.wang.database.mybatis.unit.model.TestModel" useGeneratedKeys="true" keyProperty="id">
+	<insert id="insert" parameterType="net.tinybrick.database.mybatis.unit.model.TestModel" useGeneratedKeys="true" keyProperty="id">
 		insert IGNORE into Source(id,name, creationDate) values(#{id},#{name}, now())
 	</insert>
 	

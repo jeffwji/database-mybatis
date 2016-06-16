@@ -1,4 +1,4 @@
-package com.wang.database.mybatis.dao;
+package net.tinybrick.database.mybatis.dao;
 
 import java.util.List;
 

@@ -1,5 +1,6 @@
-package com.wang.database.mybatis.unit;
+package net.tinybrick.database.mybatis.unit;
 
+import net.tinybrick.database.mybatis.unit.dao.TestDao;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
@@ -12,10 +13,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
 
 //import com.htche.database.tx.configuration.TransactionManagerConfigure;
-import com.wang.database.mybatis.configuration.MyBatisConfiguration;
-import com.wang.database.mybatis.unit.configuration.TestDatabaseConfigure.MultipleDataSourceConfig;
-import com.wang.database.mybatis.unit.configuration.TestDatabaseConfigure.SingleDataSourceConfig;
-import com.wang.database.mybatis.unit.dao.TestDao;
+import net.tinybrick.database.mybatis.configuration.MyBatisConfiguration;
+import net.tinybrick.database.mybatis.unit.configuration.TestDatabaseConfigure.MultipleDataSourceConfig;
+import net.tinybrick.database.mybatis.unit.configuration.TestDatabaseConfigure.SingleDataSourceConfig;
 
 public class MyBatisConfigTestCase {
 
@@ -33,7 +33,8 @@ public class MyBatisConfigTestCase {
 			TransactionManagerConfigure.class*/ })
 	public static class SingleDataSourceTestCase {
 		Logger logger = Logger.getLogger(this.getClass());
-		@Autowired TestDao testDao;
+		@Autowired
+		TestDao testDao;
 
 		@Transactional
 		@Test
