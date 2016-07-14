@@ -1,4 +1,4 @@
-package com.wang.database.mybatis.unit.configuration;
+package net.tinybrick.database.mybatis.unit.configuration;
 
 import javax.sql.DataSource;
 

@@ -5,7 +5,7 @@
 
 <configuration>
    <typeHandlers>
-       <typeHandler handler="com.wang.database.mybatis.persistence.typehandlers.UuidTypeHandler"
+       <typeHandler handler="net.tinybrick.database.mybatis.persistence.typehandlers.UuidTypeHandler"
                     javaType="java.util.UUID"
                     jdbcType="VARCHAR"/>
    </typeHandlers>

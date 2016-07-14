@@ -1,4 +1,4 @@
-package com.wang.database.mybatis.persistence.typehandlers;
+package net.tinybrick.database.mybatis.persistence.typehandlers;
 
 import java.sql.CallableStatement;
 import java.sql.PreparedStatement;

@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.wang</groupId>
+  <groupId>net.tinybrick</groupId>
   <artifactId>database-mybatis</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -8,15 +8,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.11</junit.version>
 		<dbunit.version>2.5.1</dbunit.version>
-		<spring.boot.version>1.2.5.RELEASE</spring.boot.version>
+		<spring.boot.version>1.3.0.RELEASE</spring.boot.version>
 		<spring.version>4.2.3.RELEASE</spring.version>
 		<!-- <database-tx.version>0.0.1</database-tx.version> -->
 		<!-- <test.version>1.0.0-SNAPSHOT</test.version> -->
 	</properties>
 	
 	<scm>
-	    <connection>scm:git:https://github.com/meee55/mybatis-config.git</connection>
-	    <developerConnection>scm:git:https://github.com/meee55/mybatis-config.git</developerConnection>
+	    <connection>scm:git:https://github.com/tinybrick/mybatis-config.git</connection>
+	    <developerConnection>scm:git:https://github.com/tinybrick/mybatis-config.git</developerConnection>
 	</scm>
 	
 	<!-- <repositories>
@@ -118,7 +118,7 @@
 		            <artifactId>spring-boot-maven-plugin</artifactId>
 		            <version>${spring.boot.version}</version>
 		            <configuration>
-		            	<layer>NONE</layer>
+		            	<layout>NONE</layout>
 		            	<skip>true</skip>
 		            </configuration>
 				      <executions>
@@ -135,8 +135,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.0</version>
 					<configuration>
-						<source>1.7</source>
-						<target>1.7</target>
+						<source>1.8</source>
+						<target>1.8</target>
 					</configuration>
 				</plugin>
 

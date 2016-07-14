@@ -1,4 +1,4 @@
-package com.wang.database.mybatis.unit.model;
+package net.tinybrick.database.mybatis.unit.model;
 
 import java.util.Date;
 
